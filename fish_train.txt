@@ -1,0 +1,11 @@
+/home/liyibing/darknet/object/JPEGImages/fish1.jpg
+/home/liyibing/darknet/object/JPEGImages/fish10.jpg
+/home/liyibing/darknet/object/JPEGImages/fish11.jpg
+/home/liyibing/darknet/object/JPEGImages/fish12.jpg
+/home/liyibing/darknet/object/JPEGImages/fish2.jpg
+/home/liyibing/darknet/object/JPEGImages/fish3.jpg
+/home/liyibing/darknet/object/JPEGImages/fish4.jpg
+/home/liyibing/darknet/object/JPEGImages/fish5.jpg
+/home/liyibing/darknet/object/JPEGImages/fish6.jpg
+/home/liyibing/darknet/object/JPEGImages/fish7.jpg
+/home/liyibing/darknet/object/JPEGImages/fish8.jpg
