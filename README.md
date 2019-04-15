@@ -1,6 +1,8 @@
 # yolo train data
 a demo for building yolo train data.
+
 1.在硬盘中建立项目文件夹object，object下新建JPEGImages存放所有图像，新建labels存放标签。用类似labelimg的工具对图片进行标注，这里是labelimg的github链接（labelimg路径不可包括中文）。选择保存位置为labels后以YOLO格式标注完所有图像。标注结果备份好！！！后续文件操作出现问题还可以挽救。
+
 2.运行脚本将所有图像的后缀名转化为.jpg。
 JPG2jpg.py
 
@@ -18,6 +20,7 @@ def JPG2jpg(file_dir):
 dir = './JPEGImages'
 
 JPG2jpg(dir)
+
 3.【运行一次】运行脚本批量重命名标签文件和对应的图像：
 rename.py
 
@@ -46,6 +49,7 @@ for i in range(len(dir2)):
         os.rename(oldname1,newname1)
         n=n+1
 print("the same name: %d , all done!" %n)
+
 4.先将labels文件夹中的classes.txt移到工程目录，重命名为fish.names。运行脚本删除未标注的多余图像，并建立文件名索引train.txt。
 
 removeimg.py
@@ -78,6 +82,7 @@ for i in range(len(dir2)):
     train_datas.write(str(dir2[i])+"\n")
 
 train_datas.close()
+
 5.运行脚本根据生成的train.txt生成指向训练集绝对路径的索引fish_train.txt
 label.py
 
